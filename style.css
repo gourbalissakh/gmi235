@@ -1,0 +1,85 @@
+nav{
+    text-align: center;
+    background: rgb(210, 206, 206);
+    box-shadow: 3px 2px 2px 2px #170F0B;
+    font-size: 1.1em;
+}
+ul{
+    padding: 0px;
+}
+li{
+    list-style-type:none ;
+    display: inline;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header[id="header"]{
+    text-align: center;
+    background: black;
+    color: white;
+}
+h2,h3{
+    font-size: 1.5em;
+}
+body{ 
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+@font-face {
+    font-family: 'josephsophia';
+    src: url(../essai/scr/josephsophia.ttf) format(truetype);
+}
+section[class="bienvenue"] h2{
+     clear: left;
+    
+
+}
+h1:hover{
+    color: rgba(215, 245, 23, 0.226);
+
+}
+a:focus{
+    color: red;
+}
+li:hover{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background: #1D1D1D;
+    color: white;
+}
+#contacts{
+    clear: left;
+}
+img[title="image"],img[id="logo"]{
+    height: 200px;
+    width: 200px;
+}
+img[title="image"]:hover{
+    -webkit-box-shadow: 19px 3px 7px 7px #170F0B;
+     box-shadow: 9px 7px 3px 7px #e7ded9;
+     border-radius: 50px;
+     border: 1px solid black;
+     color: rgb(250, 254, 254);
+    }
+    
+        
+    
+    #projet1{
+        height: 200px;
+        width: 200px;
+        
+
+    }
+    #projet1:active{
+        -webkit-box-shadow: 19px 3px 7px 7px #170F0B;
+         box-shadow: 9px 7px 3px 7px #e7ded9;
+         border-radius: 50px;
+         border: 1px solid black;
+         color: rgb(139, 143, 143);
+    }
+    img[id="projet3"]{  
+        height: 200px;
+        width: 200px;
+    }
